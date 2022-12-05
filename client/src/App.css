@@ -1,0 +1,28 @@
+.site{
+  display:flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 10px 0 0 0;
+  margin-top: 50px;
+}
+.main .box-shadow{
+  box-shadow: 1px 1px 6px -3px rgb(0 0 0 / 100%);
+}
+.gridHeader{
+  color:#fff;
+  background-color: #1976d2;
+  box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+}
+.ship-drop-down{
+  padding: 15px 10px;
+  border: 1px solid #dadada;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #444;
+  font-weight: 400;
+}

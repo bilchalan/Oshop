@@ -1,0 +1,107 @@
+.loader-wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+}
+.load-text{
+    color:#2196f3;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 20px 0 10px;
+}
+.loader{
+    position:relative;
+    display: flex;
+}
+.loader span{
+    width:20px;
+    height: 60px;
+    margin:0 10px;
+    background: #2196f3;
+    animation: animate 1.8s linear infinite;
+}
+.loader span:nth-child(1){
+    animation-delay: 0s;
+}
+.loader span:nth-child(2){
+    animation-delay: 0.2s;
+}
+.loader span:nth-child(3){
+    animation-delay: 0.4s;
+}
+.loader span:nth-child(4){
+    animation-delay: 0.6s;
+}
+.loader span:nth-child(5){
+    animation-delay: 0.8s;
+}
+.loader span:nth-child(6){
+    animation-delay: 1s;
+}
+.loader span:nth-child(7){
+    animation-delay: 1.2s;
+}
+.loader span:nth-child(8){
+    animation-delay: 1.4s;
+}
+.loader span:nth-child(9){
+    animation-delay: 1.6s;
+}
+.loader span:nth-child(10){
+    animation-delay: 1.8s;
+}
+.loader span:nth-child(11){
+    animation-delay: 2s;
+}
+.loader span:nth-child(12){
+    animation-delay: 2.2s;
+}
+.loader span:nth-child(13){
+    animation-delay: 2.4s;
+}
+.loader span:nth-child(14){
+    animation-delay: 2.6s;
+}
+.loader span:nth-child(15){
+    animation-delay: 2.8s;
+}
+.loader span:nth-child(16){
+    animation-delay: 3s;
+}
+.loader span:nth-child(17){
+    animation-delay: 3.2s;
+}
+.loader span:nth-child(18){
+    animation-delay: 3.4s;
+}
+.loader span:nth-child(19){
+    animation-delay: 3.6s;
+}
+.loader span:nth-child(20){
+    animation-delay: 3.8s;
+}
+
+@keyframes animate{
+    0%
+    {
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+        opacity:0;
+        transform: translateX(-20px) scale(1);
+    }
+    50%
+    {
+        box-shadow: 20px 50px 50px rgba(0, 0, 0, 0.5);
+        opacity:1;
+        transform: translateX(0px) scale(1.2);
+    }
+    100%
+    {
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+        opacity:0;
+        transform: translateX(20px) scale(1);
+    }
+}
